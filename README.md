@@ -142,11 +142,11 @@ APP_ENV=production
 APP_DEBUG=false
 APP_URL=https://zmscampus.gt.tc
 
-DB_HOST=sql113.infinityfree.com
+DB_HOST=private.host.in
 DB_PORT=3306
-DB_DATABASE=if0_42616947_zms_campus
-DB_USERNAME=if0_42616947
-DB_PASSWORD=2026ZmsAmba
+DB_DATABASE=my_db
+DB_USERNAME=**********
+DB_PASSWORD=**********
 ```
 
 ### Step 3: Database Import

@@ -1,10 +1,28 @@
 /**
- * Zion Mission School, Amba — Glassmorphism Landing Page & Portal Script
+ * Zion Mission School, Amba — Responsive Glassmorphism Landing Page & Portal Script
  * Developer: Partha Bhuyan (https://parthbhuyan.github.io/)
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-    // 1. Interactive Glass Tabs Switcher
+    // 1. Mobile Menu Drawer Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+
+    if (mobileMenuBtn && mobileNavDrawer) {
+        mobileMenuBtn.addEventListener('click', function () {
+            mobileNavDrawer.classList.toggle('open');
+            const icon = mobileMenuBtn.querySelector('i');
+            if (icon) {
+                if (mobileNavDrawer.classList.contains('open')) {
+                    icon.className = 'fa-solid fa-xmark';
+                } else {
+                    icon.className = 'fa-solid fa-bars';
+                }
+            }
+        });
+    }
+
+    // 2. Interactive Glass Tabs Switcher
     const tabButtons = document.querySelectorAll('.tab-btn');
     const tabPanels = document.querySelectorAll('.tab-pane');
 
@@ -23,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // 2. Smooth Scroll for Navigation Anchors
+    // 3. Smooth Scroll & Close Mobile Menu
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             const targetId = this.getAttribute('href');
@@ -32,19 +50,14 @@ document.addEventListener('DOMContentLoaded', function () {
             if (targetElement) {
                 e.preventDefault();
                 targetElement.scrollIntoView({ behavior: 'smooth' });
+                if (mobileNavDrawer && mobileNavDrawer.classList.contains('open')) {
+                    mobileNavDrawer.classList.remove('open');
+                    if (mobileMenuBtn) {
+                        const icon = mobileMenuBtn.querySelector('i');
+                        if (icon) icon.className = 'fa-solid fa-bars';
+                    }
+                }
             }
         });
-    });
-
-    // 3. Navbar Glass Effect on Scroll
-    const navbar = document.querySelector('.navbar');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 40) {
-            navbar.style.background = 'rgba(255, 255, 255, 0.92)';
-            navbar.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.08)';
-        } else {
-            navbar.style.background = 'rgba(255, 255, 255, 0.75)';
-            navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.03)';
-        }
     });
 });

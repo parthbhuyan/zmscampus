@@ -1,96 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ========== Meta Tags & SEO Optimization ========== -->
+    <!-- ========== Core Meta ========== -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zion Mission School - A Unique Educational Institution of Amba, Papumpare, AP. Smart Attendance, CBSE Syllabus Progress, and Examination Intelligence ERP Portal.">
-    <meta name="keywords" content="Zion Mission School, ZMS Campus, Amba Papumpare, School ERP, Arunachal Pradesh Education, CBSE Attendance, Partha Bhuyan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Zion Mission School, Amba (Doimukh, Papumpare, AP) — official ERP home of ZMS Campus: smart period attendance, CBSE syllabus tracking, exam intelligence and secure audit logs, built as an installable PWA.">
+    <meta name="keywords" content="Zion Mission School, ZMS Campus, Amba Papumpare, School ERP Arunachal Pradesh, CBSE Attendance System, Smart Attendance PWA, Partha Bhuyan">
     <meta name="author" content="Partha Bhuyan">
+    <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#EE4826">
-    
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Zion Mission School — Amba, Papumpare, AP">
-    <meta property="og:description" content="A unique educational institution of Amba, Papumpare, AP. Powered by ZMS Campus Web Application.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://zmscampus.gt.tc/">
-    
-    <!-- Page Title -->
-    <title>Zion Mission School — A Unique Educational Institution of Amba, Papumpare, AP</title>
+    <meta name="color-scheme" content="light">
+    <link rel="canonical" href="https://zmscampus.gt.tc/">
 
-    <!-- Favicon & Site Icons -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- ========== Open Graph / Social ========== -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ZMS Campus — Zion Mission School, Amba">
+    <meta property="og:description" content="Smart attendance, CBSE syllabus tracking and exam intelligence for Zion Mission School, Amba. Sign in to the ZMS Campus ERP portal.">
+    <meta property="og:url" content="https://zmscampus.gt.tc/">
+    <meta property="og:image" content="https://zmscampus.gt.tc/assets/images/campus_building.jpg">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ZMS Campus — Zion Mission School, Amba">
+    <meta name="twitter:description" content="Smart attendance, CBSE syllabus tracking and exam intelligence — the official ERP portal for Zion Mission School, Amba.">
+    <meta name="twitter:image" content="https://zmscampus.gt.tc/assets/images/campus_building.jpg">
+
+    <title>ZMS Campus — Zion Mission School, Amba | Smart Attendance &amp; ERP Portal</title>
+
+    <!-- ========== Icons ========== -->
+    <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" href="assets/images/zms_logo.png">
     <link rel="apple-touch-icon" href="assets/images/zms_logo.png">
 
-    <!-- Google Fonts & FontAwesome Icons -->
+    <!-- ========== Fonts & Icons ========== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- ========== Structured Data (SEO) ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "School",
+      "name": "Zion Mission School",
+      "alternateName": "ZMS Amba",
+      "url": "https://www.zionmissionschool.org/",
+      "logo": "https://zmscampus.gt.tc/assets/images/zms_logo.png",
+      "image": "https://zmscampus.gt.tc/assets/images/campus_building.jpg",
+      "telephone": "+91-92337-98092",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Amba, Doimukh",
+        "addressLocality": "Papumpare",
+        "addressRegion": "Arunachal Pradesh",
+        "postalCode": "791112",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Zion Mission Society, Nirjuli"
+      },
+      "sameAs": [
+        "https://www.zionmissionschool.org/"
+      ]
+    }
+    </script>
 </head>
 <body>
+    <!-- Preloader -->
+    <div id="preloader" aria-hidden="true">
+        <div class="preloader-inner">
+            <div class="preloader-ring-wrap">
+                <svg viewBox="0 0 92 92">
+                    <circle class="track" cx="46" cy="46" r="40"></circle>
+                    <circle class="arc" cx="46" cy="46" r="40"></circle>
+                </svg>
+                <img src="assets/images/zms_logo.png" alt="" class="preloader-logo">
+            </div>
+            <p class="preloader-word">ZMS <span>Campus</span></p>
+        </div>
+    </div>
+
+    <a class="skip-link" href="#main">Skip to content</a>
 
     <!-- Ambient Mesh Gradient Orbs -->
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
+    <div class="orb orb-1" aria-hidden="true"></div>
+    <div class="orb orb-2" aria-hidden="true"></div>
+    <div class="orb orb-3" aria-hidden="true"></div>
 
-    <!-- 🌟 TOP CONTACT HEADER RIBBON -->
+    <!-- 🌟 TOP UTILITY RIBBON -->
     <div class="top-header-bar">
         <div class="container top-header-inner">
             <div class="top-header-left">
-                <div class="header-info-item">
+                <a class="header-info-item" href="https://maps.google.com/?q=Zion+Mission+School+Amba+Doimukh+Papumpare" target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-location-dot"></i>
-                    <span>Amba, Doimukh, AP - 791112</span>
-                </div>
-                <span class="header-dot-divider">•</span>
-                <div class="header-info-item">
+                    <span>Amba, Doimukh, Papumpare, AP – 791112</span>
+                </a>
+                <span class="header-dot-divider" aria-hidden="true">•</span>
+                <a class="header-info-item" href="tel:+919233798092">
                     <i class="fa-solid fa-phone"></i>
-                    <span><a href="tel:+919233798092">+91 92337 98092</a></span>
-                </div>
+                    <span>+91 92337 98092</span>
+                </a>
+                <span class="header-dot-divider" aria-hidden="true">•</span>
+                <span class="header-info-item" id="openStatus">
+                    <i class="fa-regular fa-clock"></i>
+                    <span id="openStatusText">Checking office hours…</span>
+                </span>
             </div>
 
             <div class="top-header-right">
-                <div class="cbse-gold-badge">
+                <span class="cbse-gold-badge">
                     <i class="fa-solid fa-award"></i> CBSE Code: ZMS-AMBA-2026
-                </div>
-                <div class="society-emerald-badge">
+                </span>
+                <span class="society-emerald-badge">
                     <i class="fa-solid fa-shield-halved"></i> Zion Mission Society
-                </div>
+                </span>
             </div>
         </div>
     </div>
 
     <!-- 🌟 GLASS NAVIGATION BAR -->
-    <header class="navbar">
+    <header class="navbar" id="siteNavbar">
         <div class="container navbar-inner">
-            <a href="#" class="brand-group">
-                <div class="brand-logo-wrapper">
-                    <img src="assets/images/zms_logo.png" alt="ZMS Logo" class="brand-logo">
-                </div>
-                <div class="brand-text">
-                    <h1>Zion Mission School</h1>
-                    <p><i class="fa-solid fa-bolt"></i> ZMS CAMPUS ERP PORTAL</p>
-                </div>
+            <a href="#home" class="brand-group">
+                <span class="brand-logo-wrapper">
+                    <img src="assets/images/zms_logo.png" alt="Zion Mission School crest" class="brand-logo" width="42" height="42">
+                </span>
+                <span class="brand-text">
+                    <span class="brand-name">Zion Mission School</span>
+                    <span class="brand-tag"><i class="fa-solid fa-bolt"></i> ZMS Campus ERP</span>
+                </span>
             </a>
 
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link-item">Home</a></li>
-                <li><a href="#about" class="nav-link-item">About School</a></li>
-                <li><a href="#academics" class="nav-link-item">Academics</a></li>
-                <li><a href="#erp" class="nav-link-item">ZMS Campus ERP</a></li>
-                <li><a href="#events" class="nav-link-item">Events</a></li>
-                <li><a href="#contact" class="nav-link-item">Contact</a></li>
-            </ul>
+            <nav aria-label="Primary">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link-item">Home</a></li>
+                    <li><a href="#about" class="nav-link-item">About</a></li>
+                    <li><a href="#erp" class="nav-link-item">ERP Platform</a></li>
+                    <li><a href="#modules" class="nav-link-item">Modules</a></li>
+                    <li><a href="#events" class="nav-link-item">Events</a></li>
+                    <li><a href="#contact" class="nav-link-item">Contact</a></li>
+                </ul>
+            </nav>
 
-            <div style="display: flex; align-items: center; gap: 10px;">
+            <div class="navbar-actions">
                 <a href="https://zmscampus.gt.tc/" class="btn wow-login-btn" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-solid fa-right-from-bracket"></i> Login to Portal
+                    <i class="fa-solid fa-right-to-bracket"></i> Login to Portal
                 </a>
-                <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNavDrawer">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
@@ -99,245 +159,337 @@
         <!-- Mobile Drawer Menu -->
         <div class="mobile-nav-drawer" id="mobileNavDrawer">
             <a href="#home" class="mobile-nav-link">Home <i class="fa-solid fa-chevron-right"></i></a>
-            <a href="#about" class="mobile-nav-link">About School <i class="fa-solid fa-chevron-right"></i></a>
-            <a href="#academics" class="mobile-nav-link">Academics <i class="fa-solid fa-chevron-right"></i></a>
-            <a href="#erp" class="mobile-nav-link">ZMS Campus ERP <i class="fa-solid fa-chevron-right"></i></a>
+            <a href="#about" class="mobile-nav-link">About <i class="fa-solid fa-chevron-right"></i></a>
+            <a href="#erp" class="mobile-nav-link">ERP Platform <i class="fa-solid fa-chevron-right"></i></a>
+            <a href="#modules" class="mobile-nav-link">Modules <i class="fa-solid fa-chevron-right"></i></a>
             <a href="#events" class="mobile-nav-link">Events <i class="fa-solid fa-chevron-right"></i></a>
             <a href="#contact" class="mobile-nav-link">Contact <i class="fa-solid fa-chevron-right"></i></a>
-            <a href="https://zmscampus.gt.tc/" class="btn btn-primary" style="margin-top: 8px; width: 100%;" target="_blank" rel="noopener noreferrer">
+            <a href="https://zmscampus.gt.tc/" class="btn btn-primary mobile-login-btn" target="_blank" rel="noopener noreferrer">
                 <i class="fa-solid fa-right-to-bracket"></i> Login to ZMS Campus Portal
             </a>
         </div>
     </header>
 
-    <!-- Hero Banner Section -->
+    <main id="main">
+    <!-- Hero -->
     <section class="hero-section" id="home">
         <div class="container hero-grid">
-            <div>
-                <div class="badge-tag">
-                    <i class="fa-solid fa-school"></i> Amba, Papumpare, AP
-                </div>
-                <h1 class="hero-title">
-                    Zion Mission School — Where Education Meets <span>Transformation</span>
+            <div class="hero-copy">
+                <span class="badge-tag reveal">
+                    <i class="fa-solid fa-school"></i> Amba • Doimukh • Papumpare, Arunachal Pradesh
+                </span>
+                <h1 class="hero-title reveal">
+                    Where Education Meets <span>Transformation</span>
                 </h1>
-                <p class="hero-subtitle">
-                    A unique educational institution in Amba, Doimukh. Operated by the Zion Mission Society, Nirjuli. Dedicated to shaping holistic academic distinction, character, and leadership.
+                <p class="hero-subtitle reveal">
+                    Zion Mission School is run by the Zion Mission Society, Nirjuli, on a two‑acre green campus in Amba. ZMS Campus is its official ERP — turning attendance registers, CBSE syllabus tracking and exam records into one secure, real‑time system for every teacher and administrator.
                 </p>
-                <div class="hero-actions">
+                <div class="hero-actions reveal">
                     <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                         <i class="fa-solid fa-user-lock"></i> Access ZMS Campus ERP
                     </a>
                     <a href="#about" class="btn btn-glass">
-                        <i class="fa-solid fa-circle-info"></i> Discover School
+                        <i class="fa-solid fa-circle-info"></i> Discover the School
+                    </a>
+                </div>
+
+                <dl class="hero-stats reveal">
+                    <div class="hero-stat">
+                        <dt class="stat-number" data-count="10" data-suffix="+">0</dt>
+                        <dd class="stat-label">National Awards</dd>
+                    </div>
+                    <div class="hero-stat">
+                        <dt class="stat-number" data-count="20" data-suffix="+">0</dt>
+                        <dd class="stat-label">Expert Faculty</dd>
+                    </div>
+                    <div class="hero-stat">
+                        <dt class="stat-number" data-count="5000" data-suffix="+">0</dt>
+                        <dd class="stat-label">Students Enrolled</dd>
+                    </div>
+                    <div class="hero-stat">
+                        <dt class="stat-number" data-count="800" data-suffix="+">0</dt>
+                        <dd class="stat-label">Happy Parents</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <!-- Hero Visual: Campus photo + live ERP "product shot" widget -->
+            <div class="hero-visual reveal">
+                <div class="hero-image-frame">
+                    <picture>
+                        <source srcset="assets/images/campus_building.webp" type="image/webp">
+                        <img src="assets/images/campus_building.jpg" alt="Zion Mission School campus building and grounds" class="hero-img" width="1600" height="900" fetchpriority="high">
+                    </picture>
+                    <div class="hero-live-badge">
+                        <span class="live-dot" aria-hidden="true"></span>
+                        <span>ZMS Campus ERP • Live Sync</span>
+                    </div>
+                </div>
+
+                <!-- Signature floating snapshot widget -->
+                <div class="erp-snapshot-card" role="img" aria-label="Live snapshot: today's attendance is 96 point 4 percent">
+                    <div class="erp-snapshot-head">
+                        <span class="erp-snapshot-dot"></span> Today's Attendance
+                    </div>
+                    <div class="erp-snapshot-ring">
+                        <svg viewBox="0 0 120 120" class="ring-svg">
+                            <circle cx="60" cy="60" r="52" class="ring-track"></circle>
+                            <circle cx="60" cy="60" r="52" class="ring-value" data-ring="96.4"></circle>
+                        </svg>
+                        <div class="erp-snapshot-value">
+                            <span class="ring-number" data-count="96.4" data-decimals="1" data-suffix="%">0%</span>
+                        </div>
+                    </div>
+                    <div class="erp-snapshot-foot">Class 9–12 • Updated 2 min ago</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About School -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">About Zion Mission School</span>
+                <h2 class="section-title">Shaping Holistic Excellence in Education</h2>
+                <p class="section-desc">Located in Amba and operated by the Zion Mission Society, Nirjuli, the school looks beyond the classroom — building character, curiosity and academic distinction together.</p>
+            </div>
+
+            <div class="glass-grid three-up">
+                <div class="glass-card reveal">
+                    <div class="glass-icon-box"><i class="fa-solid fa-compass-drafting"></i></div>
+                    <h3 class="glass-card-title">Our Mission</h3>
+                    <p class="glass-card-text">To help every student live by the truth and grow in courage, confidence and creativity — nurturing visionary leaders of upright character.</p>
+                </div>
+
+                <div class="glass-card reveal">
+                    <div class="glass-icon-box"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3 class="glass-card-title">Aims &amp; Objectives</h3>
+                    <p class="glass-card-text">Quality education at an affordable cost, using modern, progressive teaching methods for all‑round physical, intellectual and moral development.</p>
+                </div>
+
+                <div class="glass-card reveal">
+                    <div class="glass-icon-box"><i class="fa-solid fa-tree"></i></div>
+                    <h3 class="glass-card-title">2‑Acre Green Campus</h3>
+                    <p class="glass-card-text">Spread across two acres in Amba, Doimukh, roughly 3&nbsp;km from Nirjuli town — airy classrooms, modern furniture and a calm learning setting.</p>
+                </div>
+            </div>
+
+            <!-- Principal's message -->
+            <div class="principal-card reveal">
+                <i class="fa-solid fa-quote-left principal-quote-icon" aria-hidden="true"></i>
+                <p class="principal-message">
+                    Zion Mission School is proud of the commitment its staff bring to an all‑round education for every student. Together, we celebrate academic, cultural and sporting achievements as one community, moving forward with confidence and pride under the school's guiding proverb: <em>“Time is precious.”</em>
+                </p>
+                <div class="principal-byline">
+                    <span class="principal-avatar">MA</span>
+                    <span>
+                        <strong>Mahaishang Angkang</strong>
+                        <small>Principal, Zion Mission School</small>
+                    </span>
+                    <a href="https://www.zionmissionschool.org/" target="_blank" rel="noopener noreferrer" class="principal-link">
+                        Official website <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
             </div>
-
-            <!-- Hero Image Frame Showcase -->
-            <div class="hero-image-frame">
-                <img src="assets/images/campus_building.jpg" alt="Zion Mission School Campus" class="hero-img">
-                <div class="hero-live-badge">
-                    <span class="live-dot"></span>
-                    <span>ZMS Campus ERP • Active Sync</span>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- About School Section with Image -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">About Zion Mission School</span>
-                <h2 class="section-title">Shaping Holistic Excellence in Education</h2>
-                <p class="section-desc">Located in Amba and operated by the Zion Mission Society in Nirjuli, our school believes in the transformative power of education beyond traditional classrooms.</p>
-            </div>
-
-            <div class="glass-grid">
-                <div class="glass-card">
-                    <div class="glass-icon-box">
-                        <i class="fa-solid fa-compass-drafting"></i>
-                    </div>
-                    <h3 class="glass-card-title">Our Mission</h3>
-                    <p class="glass-card-text">
-                        Imparting students the ‘TRUTH’ and positive virtues like courage, vitality, confidence, and creativity to nurture visionary leaders of upright character.
-                    </p>
-                </div>
-
-                <div class="glass-card">
-                    <div class="glass-icon-box">
-                        <i class="fa-solid fa-bullseye"></i>
-                    </div>
-                    <h3 class="glass-card-title">Aims & Objectives</h3>
-                    <p class="glass-card-text">
-                        Providing quality education at an affordable cost using modern progressive techniques for all-round physical, intellectual, and moral development.
-                    </p>
-                </div>
-
-                <div class="glass-card">
-                    <div class="glass-icon-box">
-                        <i class="fa-solid fa-tree"></i>
-                    </div>
-                    <h3 class="glass-card-title">2-Acre Green Campus</h3>
-                    <p class="glass-card-text">
-                        Sprawled across 2 acres of lush green grounds in Amba, Doimukh, featuring airy classrooms, modern furniture, and a tranquil learning ambiance.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ERP Features Section -->
+    <!-- ERP Features -->
     <section class="section" id="erp">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">ZMS Campus ERP Platform</span>
-                <h2 class="section-title">Integrated Management & Academic Intelligence</h2>
-                <p class="section-desc">Designed specifically for Zion Mission School faculty and administrators for real-time academic workflows.</p>
+                <h2 class="section-title">Integrated Management &amp; Academic Intelligence</h2>
+                <p class="section-desc">Built specifically for ZMS faculty and administrators, for real‑time academic workflows from first period to final report card.</p>
             </div>
 
             <div class="glass-grid">
-                <div class="glass-card">
+                <div class="glass-card reveal">
                     <div class="glass-icon-box"><i class="fa-solid fa-clipboard-user"></i></div>
-                    <h3 class="glass-card-title">Period-Wise Attendance</h3>
-                    <p class="glass-card-text">Class 9–12 daily attendance registers with low attendance warnings (&lt;75%) and SID tracking.</p>
+                    <h3 class="glass-card-title">Period‑Wise Attendance</h3>
+                    <p class="glass-card-text">Class 9–12 daily registers with automatic low‑attendance warnings below the 75% CBSE threshold and per‑student SID tracking.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card reveal">
                     <div class="glass-icon-box"><i class="fa-solid fa-book-open-reader"></i></div>
                     <h3 class="glass-card-title">CBSE Syllabus Tracker</h3>
-                    <p class="glass-card-text">Track unit completion for IT, Science, Humanities, and Commerce with automated progress percentages.</p>
+                    <p class="glass-card-text">Unit‑by‑unit completion for IT, Science, Humanities and Commerce, with automated progress percentages per class.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card reveal">
                     <div class="glass-icon-box"><i class="fa-solid fa-file-pdf"></i></div>
-                    <h3 class="glass-card-title">Automated PDF & XLS Reports</h3>
-                    <p class="glass-card-text">Generate official class registers, exam gradebooks, and summary sheets in 1-click.</p>
+                    <h3 class="glass-card-title">One‑Click PDF &amp; XLS Reports</h3>
+                    <p class="glass-card-text">Generate official class registers, exam gradebooks and summary sheets ready to print or share, in a single click.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card reveal">
                     <div class="glass-icon-box"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                    <h3 class="glass-card-title">Security & Audit Logs</h3>
-                    <p class="glass-card-text">Real-time audit log tracking of all data modifications with a strict 24-hour edit lock window.</p>
+                    <h3 class="glass-card-title">Security &amp; Audit Logs</h3>
+                    <p class="glass-card-text">Every edit is timestamped and traceable, with a strict 24‑hour lock window to protect finalised records.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card reveal">
                     <div class="glass-icon-box"><i class="fa-solid fa-calendar-days"></i></div>
                     <h3 class="glass-card-title">Academic Calendar</h3>
-                    <p class="glass-card-text">26 pre-populated official school events, exam dates, national holidays, and celebration reminders.</p>
+                    <p class="glass-card-text">Pre‑loaded school events, exam windows, national holidays and celebration reminders for the whole year.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card reveal">
                     <div class="glass-icon-box"><i class="fa-solid fa-mobile-screen"></i></div>
                     <h3 class="glass-card-title">Progressive Web App</h3>
-                    <p class="glass-card-text">Installable app for phones and desktops with offline support and instant home screen launcher icon.</p>
+                    <p class="glass-card-text">Installable on phones and desktops, with offline support and a home‑screen launcher icon — no app store needed.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Interactive System Tabs -->
-    <section class="section" id="academics">
+    <!-- Interactive Modules -->
+    <section class="section" id="modules">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">System Modules</span>
                 <h2 class="section-title">Explore ZMS Campus Key Modules</h2>
+                <p class="section-desc">A quick look at what faculty see inside the portal.</p>
             </div>
 
-            <div class="tabs-header">
-                <button class="tab-btn active" data-tab="module-attendance">Smart Attendance</button>
-                <button class="tab-btn" data-tab="module-syllabus">Syllabus Tracker</button>
-                <button class="tab-btn" data-tab="module-security">Security & Audit</button>
-            </div>
+            <div class="tabs-wrap reveal">
+                <div class="tabs-header" role="tablist" aria-label="ZMS Campus modules">
+                    <button class="tab-btn active" id="tab-attendance" role="tab" aria-selected="true" aria-controls="module-attendance" data-tab="module-attendance">
+                        <i class="fa-solid fa-clipboard-user"></i> Smart Attendance
+                    </button>
+                    <button class="tab-btn" id="tab-syllabus" role="tab" aria-selected="false" aria-controls="module-syllabus" data-tab="module-syllabus" tabindex="-1">
+                        <i class="fa-solid fa-book-open-reader"></i> Syllabus Tracker
+                    </button>
+                    <button class="tab-btn" id="tab-security" role="tab" aria-selected="false" aria-controls="module-security" data-tab="module-security" tabindex="-1">
+                        <i class="fa-solid fa-shield-halved"></i> Security &amp; Audit
+                    </button>
+                </div>
 
-            <div class="tab-pane active" id="module-attendance">
-                <div>
-                    <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 12px;">Period Attendance Register</h3>
-                    <p style="color: var(--text-secondary); margin-bottom: 20px;">Records period-by-period presence for senior classes. Automatically alerts teachers when student attendance drops below the 75% CBSE requirement.</p>
-                    <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open Attendance Module</a>
+                <div class="tab-pane active" id="module-attendance" role="tabpanel" aria-labelledby="tab-attendance">
+                    <div class="tab-copy">
+                        <h3 class="tab-title">Period Attendance Register</h3>
+                        <p class="tab-text">Records period‑by‑period presence for senior classes and automatically alerts teachers the moment a student's attendance drops below the 75% CBSE requirement.</p>
+                        <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open Attendance Module</a>
+                    </div>
+                    <div class="tab-media">
+                        <picture>
+                            <source srcset="assets/images/computer_lab.webp" type="image/webp">
+                            <img src="assets/images/computer_lab.jpg" alt="Students in the ZMS computer lab" loading="lazy" width="800" height="500">
+                        </picture>
+                    </div>
                 </div>
-                <div style="position: relative; border-radius: var(--radius-md); overflow: hidden; height: 220px;">
-                    <img src="assets/images/computer_lab.jpg" alt="Computer Lab" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-            </div>
 
-            <div class="tab-pane" id="module-syllabus">
-                <div>
-                    <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 12px;">CBSE Curriculum Progress</h3>
-                    <p style="color: var(--text-secondary); margin-bottom: 20px;">Monitors chapter completion, lab work, and internal assessments. Provides clear term-end readiness metrics for Information Technology (Code 802).</p>
-                    <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open Syllabus Module</a>
+                <div class="tab-pane" id="module-syllabus" role="tabpanel" aria-labelledby="tab-syllabus" hidden>
+                    <div class="tab-copy">
+                        <h3 class="tab-title">CBSE Curriculum Progress</h3>
+                        <p class="tab-text">Tracks chapter completion, lab work and internal assessments, giving a clear, term‑end readiness picture for every stream — including Information Technology (Code 802).</p>
+                        <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open Syllabus Module</a>
+                    </div>
+                    <div class="tab-media tab-media-panel">
+                        <div class="progress-row">
+                            <div class="progress-row-top"><span>Class 12 · IT Core (802)</span><span class="mono">87%</span></div>
+                            <div class="progress-track"><div class="progress-fill" style="width:87%"></div></div>
+                        </div>
+                        <div class="progress-row">
+                            <div class="progress-row-top"><span>Class 11 · IT Basics</span><span class="mono">74%</span></div>
+                            <div class="progress-track"><div class="progress-fill" style="width:74%"></div></div>
+                        </div>
+                        <div class="progress-row">
+                            <div class="progress-row-top"><span>Class 10 · Science Core</span><span class="mono">91%</span></div>
+                            <div class="progress-track"><div class="progress-fill" style="width:91%"></div></div>
+                        </div>
+                    </div>
                 </div>
-                <div style="background: rgba(255,255,255,0.8); backdrop-filter: blur(12px); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--glass-border);">
-                    <div style="font-weight: 700; color: var(--brand-gold); margin-bottom: 6px;">CURRICULUM PROGRESS</div>
-                    <div style="font-weight: 800; font-size: 1.1rem; color: var(--text-primary);">Class 12 IT Core: 87% Completed</div>
-                    <div style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 6px;">Class 11 IT Basics: 74% Completed</div>
-                </div>
-            </div>
 
-            <div class="tab-pane" id="module-security">
-                <div>
-                    <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 12px;">Role-Based Access Control</h3>
-                    <p style="color: var(--text-secondary); margin-bottom: 20px;">Protects academic records with BCrypt hashing, strict edit window limits, and audit trails for total integrity.</p>
-                    <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open Audit Logs</a>
-                </div>
-                <div style="background: rgba(255,255,255,0.8); backdrop-filter: blur(12px); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--glass-border);">
-                    <div style="font-weight: 700; color: var(--brand-emerald); margin-bottom: 6px;">SECURITY AUDIT</div>
-                    <div style="font-weight: 800; font-size: 1.1rem; color: var(--text-primary);">0 Security Violations Recorded</div>
-                    <div style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 6px;">24-Hour Edit Lock Window Active</div>
+                <div class="tab-pane" id="module-security" role="tabpanel" aria-labelledby="tab-security" hidden>
+                    <div class="tab-copy">
+                        <h3 class="tab-title">Role‑Based Access Control</h3>
+                        <p class="tab-text">Academic records are protected with hashed credentials, strict edit‑window limits and a full audit trail — so every change is accountable.</p>
+                        <a href="https://zmscampus.gt.tc/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open Audit Logs</a>
+                    </div>
+                    <div class="tab-media tab-media-panel audit-log">
+                        <div class="audit-row"><i class="fa-solid fa-circle-check"></i><span>Attendance saved — Class 10‑B</span><span class="mono muted">2h ago</span></div>
+                        <div class="audit-row"><i class="fa-solid fa-circle-check"></i><span>Syllabus unit marked complete — IT 802</span><span class="mono muted">5h ago</span></div>
+                        <div class="audit-row"><i class="fa-solid fa-lock"></i><span>Edit window locked — Class 9‑A register</span><span class="mono muted">1d ago</span></div>
+                        <div class="audit-row"><i class="fa-solid fa-circle-check"></i><span>Report exported — Class 12 gradebook</span><span class="mono muted">1d ago</span></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- School Events Section -->
+    <!-- Events -->
     <section class="section" id="events">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <span class="section-tag">Campus Life</span>
-                <h2 class="section-title">School Events & Activities</h2>
-                <p class="section-desc">Key annual events fostering creativity, sportsmanship, and holistic character growth.</p>
+                <h2 class="section-title">School Events &amp; Activities</h2>
+                <p class="section-desc">Key dates on the ZMS academic calendar that build creativity, sportsmanship and character.</p>
             </div>
 
-            <div class="glass-grid">
-                <div class="glass-card">
+            <div class="glass-grid four-up">
+                <div class="glass-card event-card reveal">
                     <div class="glass-card-img-wrapper">
-                        <img src="assets/images/children_day.jpg" alt="Children's Day" class="glass-card-img">
+                        <picture>
+                            <source srcset="assets/images/campus_building.webp" type="image/webp">
+                            <img src="assets/images/campus_building.jpg" alt="Community outreach at Zion Mission School" class="glass-card-img" loading="lazy" width="800" height="500">
+                        </picture>
+                        <span class="event-date-badge">24 Apr</span>
                     </div>
-                    <h3 class="glass-card-title">Children’s Day (14th Nov)</h3>
-                    <p class="glass-card-text">Cultural programs, skill building, student scholarships, and literacy programs arranged under faculty guidance.</p>
+                    <h3 class="glass-card-title">Outreach Mission</h3>
+                    <p class="glass-card-text">Students and staff carry the school's care and values mission out into the church and wider Amba community.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card event-card reveal">
                     <div class="glass-card-img-wrapper">
-                        <img src="assets/images/sports_day.jpg" alt="Sports Day" class="glass-card-img">
+                        <picture>
+                            <source srcset="assets/images/sports_day.webp" type="image/webp">
+                            <img src="assets/images/sports_day.jpg" alt="Annual Sports Day at Zion Mission School" class="glass-card-img" loading="lazy" width="800" height="500">
+                        </picture>
+                        <span class="event-date-badge">29 Aug</span>
                     </div>
-                    <h3 class="glass-card-title">Annual Sports Day (29th Aug)</h3>
-                    <p class="glass-card-text">Organizing football leagues and cricket tournaments for youths of Amba and nearby areas to promote fitness.</p>
+                    <h3 class="glass-card-title">Annual Sports Day</h3>
+                    <p class="glass-card-text">Football leagues and cricket tournaments open to youths across Amba and nearby areas, promoting fitness and fair play.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card event-card reveal">
                     <div class="glass-card-img-wrapper">
-                        <img src="assets/images/computer_lab.jpg" alt="Teacher's Day & Lab" class="glass-card-img">
+                        <picture>
+                            <source srcset="assets/images/computer_lab.webp" type="image/webp">
+                            <img src="assets/images/computer_lab.jpg" alt="Teacher's Day celebrations at Zion Mission School" class="glass-card-img" loading="lazy" width="800" height="500">
+                        </picture>
+                        <span class="event-date-badge">5 Sep</span>
                     </div>
-                    <h3 class="glass-card-title">Teacher’s Day & Outreach</h3>
-                    <p class="glass-card-text">Celebrating educators on 5th September and sharing care and value missions across the local community.</p>
+                    <h3 class="glass-card-title">Teacher's Day</h3>
+                    <p class="glass-card-text">Marked on Dr. Radhakrishnan's birthday — a day honouring the duties and dedication of every ZMS educator.</p>
+                </div>
+
+                <div class="glass-card event-card reveal">
+                    <div class="glass-card-img-wrapper">
+                        <picture>
+                            <source srcset="assets/images/children_day.webp" type="image/webp">
+                            <img src="assets/images/children_day.jpg" alt="Children's Day celebrations at Zion Mission School" class="glass-card-img" loading="lazy" width="800" height="500">
+                        </picture>
+                        <span class="event-date-badge">14 Nov</span>
+                    </div>
+                    <h3 class="glass-card-title">Children's Day</h3>
+                    <p class="glass-card-text">Cultural programs, scholarships and literacy drives, run under faculty guidance to celebrate every student's talent.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA BANNER SECTION -->
+    <!-- CTA / Contact -->
     <section class="cta-section-wrapper" id="contact">
         <div class="container">
-            <div class="wow-cta-card">
-                <div class="cta-icon-badge">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
+            <div class="wow-cta-card reveal">
+                <div class="cta-icon-badge"><i class="fa-solid fa-graduation-cap"></i></div>
                 <h2 class="wow-cta-title">
-                    Empowering Zion Mission School <span>Faculty & Leadership</span>
+                    Built for ZMS <span>Faculty &amp; Leadership</span>
                 </h2>
                 <p class="wow-cta-desc">
-                    Access real-time period attendance registers, CBSE syllabus progress analytics, examination marksheets, and enterprise security in 1-click.
+                    Real‑time period attendance registers, CBSE syllabus analytics, examination marksheets and enterprise‑grade security — one login away.
                 </p>
                 <div class="cta-btn-wrapper">
                     <a href="https://zmscampus.gt.tc/" class="btn wow-portal-btn" target="_blank" rel="noopener noreferrer">
@@ -345,79 +497,67 @@
                     </a>
                 </div>
                 <div class="cta-trust-tags">
-                    <span><i class="fa-solid fa-shield-halved"></i> 256-Bit Encrypted</span>
-                    <span><i class="fa-solid fa-bolt"></i> Instant PWA Access</span>
-                    <span><i class="fa-solid fa-clock-rotate-left"></i> 24h Audit Lock</span>
+                    <span><i class="fa-solid fa-shield-halved"></i> Encrypted sign‑in</span>
+                    <span><i class="fa-solid fa-bolt"></i> Instant PWA access</span>
+                    <span><i class="fa-solid fa-clock-rotate-left"></i> 24h audit lock</span>
                 </div>
             </div>
         </div>
     </section>
+    </main>
 
-    <!-- PURE FROSTED LIGHT GLASS FOOTER -->
+    <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
-                <!-- School Brand Info with Logo -->
                 <div class="footer-brand">
-                    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px;">
-                        <img src="assets/images/zms_logo.png" alt="ZMS Logo" style="height: 40px; width: auto; filter: drop-shadow(0 2px 8px rgba(238, 72, 38, 0.25));">
+                    <div class="footer-brand-head">
+                        <img src="assets/images/zms_logo.png" alt="ZMS Logo" class="footer-logo" width="40" height="40">
                         <div>
-                            <h3 style="margin-bottom: 0; line-height: 1.1;">Zion Mission School</h3>
-                            <span style="font-size: 0.7rem; color: var(--brand-red); font-weight: 800; letter-spacing: 0.05em;">AMBA • PAPUMPARE</span>
+                            <h3>Zion Mission School</h3>
+                            <span class="footer-brand-sub">AMBA • PAPUMPARE</span>
                         </div>
                     </div>
-                    <p>
-                        A Unique Educational Institution of Amba, Doimukh, Papumpare, AP. Run by the Zion Mission Society, Nirjuli. Dedicated to shaping holistic character and academic distinction.
-                    </p>
+                    <p>A unique educational institution in Amba, Doimukh, Papumpare, AP. Run by the Zion Mission Society, Nirjuli — dedicated to holistic character and academic distinction.</p>
                     <div class="footer-contact-pills">
-                        <div class="contact-pill-item">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>Amba, Doimukh, Papumpare, AP - 791112</span>
-                        </div>
-                        <div class="contact-pill-item">
-                            <i class="fa-solid fa-phone"></i>
-                            <span>+91 92337 98092</span>
-                        </div>
-                        <div class="contact-pill-item">
-                            <i class="fa-solid fa-globe"></i>
-                            <a href="https://www.zionmissionschool.org/" target="_blank" rel="noopener noreferrer" style="color:var(--brand-red);font-weight:700;text-decoration:none;">www.zionmissionschool.org</a>
-                        </div>
+                        <div class="contact-pill-item"><i class="fa-solid fa-location-dot"></i><span>Amba, Doimukh, Papumpare, AP – 791112</span></div>
+                        <div class="contact-pill-item"><i class="fa-solid fa-phone"></i><a href="tel:+919233798092">+91 92337 98092</a></div>
+                        <div class="contact-pill-item"><i class="fa-solid fa-globe"></i><a href="https://www.zionmissionschool.org/" target="_blank" rel="noopener noreferrer">www.zionmissionschool.org</a></div>
+                        <div class="contact-pill-item"><i class="fa-regular fa-clock"></i><span>Mon–Fri 7am–5pm · Sat 7am–12pm · Sun closed</span></div>
                     </div>
                 </div>
 
-                <!-- School Links -->
                 <div class="footer-col">
                     <h4>School Links</h4>
                     <ul class="footer-menu">
-                        <li><a href="#home"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Home</a></li>
-                        <li><a href="#about"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> About School</a></li>
-                        <li><a href="https://www.zionmissionschool.org/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Admission Policy</a></li>
-                        <li><a href="https://www.zionmissionschool.org/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Fee Structure</a></li>
-                        <li><a href="#events"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Campus Events</a></li>
+                        <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About School</a></li>
+                        <li><a href="https://www.zionmissionschool.org/admission-policy.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-chevron-right"></i> Admission Policy</a></li>
+                        <li><a href="https://www.zionmissionschool.org/fee-day-scholar.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-chevron-right"></i> Fee Structure</a></li>
+                        <li><a href="https://www.zionmissionschool.org/gallery.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Campus Events</a></li>
                     </ul>
                 </div>
 
-                <!-- Web App Modules -->
                 <div class="footer-col">
                     <h4>Portal Modules</h4>
                     <ul class="footer-menu">
-                        <li><a href="https://zmscampus.gt.tc/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-lock" style="font-size:10px;color:var(--brand-gold);"></i> Portal Sign In</a></li>
-                        <li><a href="#academics"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Smart Attendance</a></li>
-                        <li><a href="#academics"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Syllabus Tracker</a></li>
-                        <li><a href="#academics"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Exam Intelligence</a></li>
-                        <li><a href="#academics"><i class="fa-solid fa-chevron-right" style="font-size:10px;color:var(--brand-red);"></i> Audit Logs</a></li>
+                        <li><a href="https://zmscampus.gt.tc/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-lock gold"></i> Portal Sign In</a></li>
+                        <li><a href="#modules"><i class="fa-solid fa-chevron-right"></i> Smart Attendance</a></li>
+                        <li><a href="#modules"><i class="fa-solid fa-chevron-right"></i> Syllabus Tracker</a></li>
+                        <li><a href="#modules"><i class="fa-solid fa-chevron-right"></i> Security &amp; Audit</a></li>
+                        <li><a href="#erp"><i class="fa-solid fa-chevron-right"></i> All ERP Features</a></li>
                     </ul>
                 </div>
 
-                <!-- Designer Developer Signature Card -->
                 <div class="footer-col">
                     <h4>Lead Architect</h4>
                     <div class="dev-signature-card">
                         <div class="dev-header">
-                            <div class="dev-avatar-circle">PB</div>
+                            <span class="dev-avatar-circle">PB</span>
                             <div class="dev-meta">
                                 <h5>Partha Bhuyan</h5>
-                                <p>System Architect & Developer</p>
+                                <p>System Architect &amp; Developer</p>
                             </div>
                         </div>
                         <a href="https://parthbhuyan.github.io/" target="_blank" rel="noopener noreferrer" class="dev-portfolio-btn">
@@ -428,17 +568,17 @@
             </div>
 
             <div class="footer-bottom-bar">
-                <div>
-                    © 2026 <strong>Zion Mission School, Amba</strong>. All Rights Reserved. CBSE Code: <strong>ZMS-AMBA-2026</strong>.
-                </div>
-                <div>
-                    Designed & Engineered by <a href="https://parthbhuyan.github.io/" target="_blank" rel="noopener noreferrer" style="color:var(--brand-red);font-weight:800;text-decoration:none;border-bottom:1.5px solid var(--brand-red);">Partha Bhuyan</a>
-                </div>
+                <div>© <span id="footerYear">2026</span> <strong>Zion Mission School, Amba</strong>. All rights reserved. CBSE Code: <strong>ZMS‑AMBA‑2026</strong>.</div>
+                <div>Designed &amp; engineered by <a href="https://parthbhuyan.github.io/" target="_blank" rel="noopener noreferrer" class="footer-credit-link">Partha Bhuyan</a></div>
             </div>
         </div>
     </footer>
 
-    <!-- Script -->
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
     <script src="script.js"></script>
 </body>
 </html>

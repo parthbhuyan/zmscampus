@@ -1,189 +1,180 @@
 <div align="center">
 
-  <!-- Animated Header Banner -->
-  <a href="https://zmscampus.gt.tc/">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=32&duration=3000&pause=1000&color=EE4826&center=true&vCenter=true&width=750&lines=ZION+MISSION+SCHOOL;ZMS+Campus+ERP+System;Smart+Attendance+%26+Syllabus+Tracker;Powered+by+PHP+8.3+%26+PWA" alt="ZMS Campus Animated Header" />
-  </a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EE4826,50:F5A623,100:10B981&height=220&section=header&text=ZMS%20Campus&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Zion%20Mission%20School%2C%20Amba%20%E2%80%94%20Smart%20Attendance%20%26%20ERP%20Portal&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="ZMS Campus banner"/>
 
-  <br />
+<img src="assets/images/zms_logo.png" alt="Zion Mission School crest" width="100" />
 
-  <img src="static/assets/images/zms_logo.png" alt="Zion Mission School Logo" width="130" style="filter: drop-shadow(0 6px 16px rgba(238, 72, 38, 0.3)); margin: 15px 0;" />
+<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=22&duration=2800&pause=1000&color=EE4826&center=true&vCenter=true&width=680&lines=A+Unique+Educational+Institution+of+Amba%2C+Arunachal+Pradesh;Run+by+the+Zion+Mission+Society%2C+Nirjuli;Affiliation+Code+%3A+ZMS-AMBA-2026" alt="Typing SVG"/>
 
-  # 🏫 ZMS Campus — Smart School ERP Platform
+<br/>
 
-  **A Unique Educational Institution of Amba, Doimukh, Papumpare, Arunachal Pradesh**  
-  *Affiliation Code: `ZMS-AMBA-2026` • Run by Zion Mission Society, Nirjuli*
+<p>
+  <a href="https://zmscampus.gt.tc/"><img src="https://img.shields.io/badge/🔐_Live_Portal-zmscampus.gt.tc-EE4826?style=for-the-badge&labelColor=1a1a2e" alt="Live Portal"/></a>
+  <a href="https://www.zionmissionschool.org/"><img src="https://img.shields.io/badge/🏫_School_Website-zionmissionschool.org-F5A623?style=for-the-badge&labelColor=1a1a2e" alt="Official Website"/></a>
+  <a href="https://parthbhuyan.github.io/"><img src="https://img.shields.io/badge/👨‍💻_Developer-Partha_Bhuyan-6366F1?style=for-the-badge&labelColor=1a1a2e" alt="Developer"/></a>
+</p>
 
-  <br />
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Theme-Glassmorphism_Light-EE4826?style=flat-square" alt="Glassmorphism"/>
+  <img src="https://img.shields.io/badge/PWA-ready-10B981?style=flat-square&logo=pwa&logoColor=white" alt="PWA ready"/>
+  <img src="https://img.shields.io/badge/Responsive-320px%E2%80%931440px+-6366F1?style=flat-square" alt="Responsive"/>
+  <img src="https://img.shields.io/badge/Dependencies-zero-10B981?style=flat-square" alt="Zero dependencies"/>
+</p>
 
-  <!-- Animated Tech Badges -->
-  <p align="center">
-    <a href="https://zmscampus.gt.tc/">
-      <img src="https://img.shields.io/badge/Live_Portal-https%3A%2F%2Fzmscampus.gt.tc%2F-EE4826?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portal" />
-    </a>
-    <a href="https://www.zionmissionschool.org/">
-      <img src="https://img.shields.io/badge/School_Website-zionmissionschool.org-F59E0B?style=for-the-badge&logo=globe&logoColor=white" alt="Official Website" />
-    </a>
-    <a href="https://parthbhuyan.github.io/">
-      <img src="https://img.shields.io/badge/Architect-Partha_Bhuyan-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Architect" />
-    </a>
-  </p>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.3" />
-    <img src="https://img.shields.io/badge/Database-MySQL_PDO-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-    <img src="https://img.shields.io/badge/PWA-Chrome%2FEdge-10B981?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
-    <img src="https://img.shields.io/badge/Theme-Glassmorphism_Light-EE4826?style=flat-square" alt="Glassmorphism" />
-    <img src="https://img.shields.io/badge/Security-256bit_BCrypt-black?style=flat-square&logo=letsencrypt" alt="Security" />
-  </p>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:EE4826,50:F5A623,100:10B981&height=4&section=header" width="70%" alt="divider"/>
 
 </div>
 
----
+<br/>
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Highlights](#-highlights)
+- [Built With](#-built-with)
+- [Structure](#️-structure)
+- [Design System](#-design-system)
+- [Running it Locally](#-running-it-locally)
+- [A Note on Secrets](#-a-note-on-secrets)
+- [Developer](#-developer)
+
+<br/>
 
 ## 🌟 Overview
 
-**ZMS Campus** is an enterprise-grade Progressive Web Application (PWA) built specifically for **Zion Mission School, Amba**. Designed with custom PHP 8.3 MVC architecture and a clean Apple-level Glassmorphism light design system, it empowers faculty, administrators, and students with real-time academic workflows.
+This is the **public marketing homepage** for **ZMS Campus** — the school-management ERP used by **Zion Mission School, Amba**. It's a static, dependency‑free page (`index.html` + `style.css` + `script.js`) that introduces the school, showcases what the ERP does, and hands visitors straight to the live portal.
 
-> [!IMPORTANT]
-> **Production Live ERP Portal**: [https://zmscampus.gt.tc/](https://zmscampus.gt.tc/)  
-> **Official Zion Mission School Website**: [https://www.zionmissionschool.org/](https://www.zionmissionschool.org/)
+> 🔐 **Live ERP Portal:** [zmscampus.gt.tc](https://zmscampus.gt.tc/)
+> 🏫 **Official school website:** [zionmissionschool.org](https://www.zionmissionschool.org/)
 
----
+No build step, no framework, no dependencies to install — open `index.html` and it runs.
 
-## ✨ Key Features & Capabilities
+<br/>
 
-```mermaid
-graph TD
-    A[ZMS Campus ERP Platform] --> B[Smart Period Attendance Engine]
-    A --> C[CBSE Syllabus Tracker]
-    A --> D[Examination Intelligence]
-    A --> E[Enterprise Security & Audit Logs]
-    A --> F[PWA Desktop & Mobile Sync]
+## ✨ Highlights
 
-    B --> B1[Period-wise Register Class 9-12]
-    B --> B2[Automated Low Attendance Alerts <75%]
-    
-    C --> C1[Unit Progress Tracker IT 802]
-    C --> C2[Real-time Completion Metrics]
+<table>
+<tr><td>🎨</td><td><b>Glassmorphism light theme</b> — frosted cards, soft mesh gradients, brand red / gold / emerald accents drawn straight from the school crest</td></tr>
+<tr><td>🧊</td><td><b>Signature "live ERP" widget</b> — a floating attendance‑ring snapshot on the hero image, animated with <code>requestAnimationFrame</code></td></tr>
+<tr><td>📱</td><td><b>Responsive down to 320px</b> — breakpoints at 1180 / 1024 / 768 / 600 / 480 / 360px, plus a short‑landscape query for small phones</td></tr>
+<tr><td>🌀</td><td><b>Preloader + scroll‑reveal</b> — a branded loading ring on first paint, then <code>IntersectionObserver</code> fades sections in as you scroll</td></tr>
+<tr><td>🧮</td><td><b>Count‑up statistics</b> — school stats and the attendance ring animate into view once, using an eased tween</td></tr>
+<tr><td>♿</td><td><b>Accessible tabs & nav</b> — real <code>role="tablist"</code>/<code>tabpanel</code> wiring, arrow‑key tab switching, skip‑link, visible focus states</td></tr>
+<tr><td>🕒</td><td><b>Live office‑hours badge</b> — computed client‑side in IST against the school's real Mon–Fri / Sat hours</td></tr>
+<tr><td>🧭</td><td><b>Scroll‑spy navigation</b> — the active section highlights itself in the nav as you scroll</td></tr>
+<tr><td>🩶</td><td><b><code>prefers-reduced-motion</code> respected</b> — every animation degrades to an instant, static state when requested</td></tr>
+<tr><td>🔍</td><td><b>SEO baked in</b> — descriptive meta tags, Open Graph / Twitter cards, canonical link, and JSON‑LD <code>School</code> structured data</td></tr>
+<tr><td>🖼️</td><td><b>WebP + JPEG fallbacks</b> — every photo ships as a compressed <code>.webp</code> with a <code>&lt;picture&gt;</code> fallback to <code>.jpg</code></td></tr>
+</table>
 
-    D --> D1[1-Click Official PDF Gradebook]
-    D --> D2[Excel XLS Summary Export]
+<br/>
 
-    E --> E1[24h Edit Lock Safety Window]
-    E --> E2[BCrypt Hashing & Audit Logs]
-```
+## 🛠 Built With
 
-### 📋 Detailed Feature Highlights:
+<div align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github&theme=light" alt="Tech stack icons"/>
+</div>
 
-- 📊 **Period-Wise Attendance Engine**: Records class-by-class attendance for senior secondary students, tracking SID and flagging low attendance risks (<75% CBSE threshold).
-- 📚 **CBSE Curriculum Progress Tracker**: Monitors unit-by-unit syllabus completion for IT (Code 802), Science, Humanities, and Commerce streams.
-- 📄 **1-Click Export Automation**: Generates official CBSE printable PDF gradebooks (via `Dompdf`) and Excel spreadsheet registers (via `PhpSpreadsheet`).
-- 🛡️ **Enterprise Security & Audit Trails**: Every record creation, update, and deletion is recorded in real-time with IP tracking and a strict 24-hour edit lock window.
-- 📱 **Progressive Web App (PWA)**: Desktop and mobile installable app with offline caching via `sw.js` and custom launcher icons.
+<br/>
 
----
-
-## 🎨 Glassmorphism Light Design System
-
-The platform features a custom-engineered **Glassmorphism Light Theme**:
+## 🗂️ Structure
 
 ```
-Background Palette : Warm Rose (#FFF5F2) ➔ Sky Indigo (#F4F7FF) ➔ Silk White (#FFFFFF)
-Accent Palette     : Brand Red (#EE4826) • Warm Amber (#F59E0B) • Emerald (#10B981)
-Glass Surface      : rgba(255, 255, 255, 0.82) with 24px backdrop-filter blur
-Typography         : Google Font 'Plus Jakarta Sans' (Weights: 400, 600, 700, 800)
+zms-static-site/
+├── index.html               # Markup — hero, about, ERP features, modules, events, footer
+├── style.css                # Design tokens, glassmorphism theme, animations, breakpoints
+├── script.js                 # Preloader, nav, tabs, scroll-reveal, count-up, office-hours
+├── favicon.ico
+├── assets/
+│   └── images/
+│       ├── zms_logo.png           # School crest (favicon + logo)
+│       ├── campus_building.jpg / .webp
+│       ├── computer_lab.jpg / .webp
+│       ├── sports_day.jpg / .webp
+│       └── children_day.jpg / .webp
+└── README.md
 ```
 
----
+<br/>
 
-## 📁 Project Architecture & Folder Structure
+## 🎨 Design System
 
-```
-zms-campus/
-├── 📁 app/                     # Custom PHP 8.3 MVC Backend Architecture
-│   ├── 📁 Controllers/         # AuthController, AttendanceController, SyllabusController, AuditController
-│   ├── 📁 Models/              # Student, Attendance, Syllabus, AuditLog, AcademicCalendar
-│   └── 📁 Views/               # Blade-style PHP Views with Glassmorphic Component UI
-├── 📁 assets/                  # Public Web Assets
-│   ├── 📁 icons/               # PWA App Icons (72x72 to 512x512)
-│   ├── 📁 images/              # High-Res Campus Images (campus_building, computer_lab, etc.)
-│   └── 📁 uploads/             # Profile Avatars & Official Documents
-├── 📁 config/                  # Environment & PDO Database Singleton Configuration
-├── 📁 static/                  # Glassmorphism Landing Page (index.html, style.css, script.js)
-├── 📄 .env                    # Production Database Credentials & App Secrets
-├── 📄 .htaccess                # Apache URL Rewriting & Physical File Exclusions
-├── 📄 index.php                # Front Controller Entry Point
-├── 📄 manifest.json            # PWA Manifest Specification
-├── 📄 sw.js                    # Service Worker Offline Caching Script
-└── 📄 zms_campus.sql           # Database Schema Dump & Initial Seed Data
-```
+**Background gradient**
 
----
+`#FFF6F3` → `#F5F7FF` → `#FBF6FF` → `#F1FDF7`
 
-## ⚡ Quick Start & Installation
+**Accent palette**
 
-### Prerequisites
-- PHP 8.3 or higher with `pdo_mysql`, `gd`, and `mbstring` extensions enabled.
-- MySQL 8.0 / MariaDB 10.4 or higher.
-- Apache web server with `mod_rewrite` enabled.
+![#EE4826](https://via.placeholder.com/14/EE4826/EE4826.png) `Brand Red` `#EE4826` &nbsp;&nbsp;
+![#F5A623](https://via.placeholder.com/14/F5A623/F5A623.png) `Brand Gold` `#F5A623` &nbsp;&nbsp;
+![#10B981](https://via.placeholder.com/14/10B981/10B981.png) `Emerald` `#10B981` &nbsp;&nbsp;
+![#6366F1](https://via.placeholder.com/14/6366F1/6366F1.png) `Indigo` `#6366F1` &nbsp;&nbsp;
+![#101A2C](https://via.placeholder.com/14/101A2C/101A2C.png) `Text Primary` `#101A2C`
 
-### Step 1: Clone Repository
+**Type & shape**
+
+| Role | Choice |
+|---|---|
+| Display + body font | `Plus Jakarta Sans` |
+| Stats / codes / timestamps | `JetBrains Mono` |
+| Glass surfaces | `rgba(255,255,255,.82)` · 20–24px backdrop blur |
+| Corner radii | `8 / 14 / 24 / 30px` + full pill for buttons & badges |
+
+<details>
+<summary><b>💡 Why a floating attendance‑ring widget?</b></summary>
+<br/>
+The hero photo alone is a nice campus shot, but it doesn't say "this school runs on software." The floating glass widget — an animated ring counting up to today's attendance percentage — works like a small product screenshot layered over the marketing photo, the same way software landing pages preview their own UI rather than only showing lifestyle imagery. The mock audit‑log rows in the <b>Security</b> tab do the same job further down the page.
+</details>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:10B981,50:F5A623,100:EE4826&height=4&section=header" width="70%" alt="divider"/>
+
+<br/>
+
+## 🚀 Running it Locally
+
+No install needed — but serving over HTTP (rather than `file://`) avoids local CORS quirks with fonts/icons:
+
 ```bash
-git clone https://github.com/parthbhuyan/zms-campus.git
-cd zms-campus
+# Python
+python3 -m http.server 8080
+
+# Node
+npx serve .
 ```
 
-### Step 2: Environment Setup
-Create a `.env` file in the root directory:
-```ini
-APP_NAME="ZMS Campus"
-APP_ENV=production
-APP_DEBUG=false
-APP_URL=https://zmscampus.gt.tc
+Then open `http://localhost:8080`.
 
-DB_HOST=private.host.in
-DB_PORT=3306
-DB_DATABASE=my_db
-DB_USERNAME=**********
-DB_PASSWORD=**********
-```
+### Deploying
 
-### Step 3: Database Import
-Import `zms_campus.sql` into your MySQL server:
-```bash
-mysql -u if0_42616947 -p if0_42616947_zms_campus < zms_campus.sql
-```
+This folder is ready to drop onto **GitHub Pages**, **Netlify**, **Vercel**, or directly into the `static/` (or public web root) of the `zms-campus` PHP application — it's plain HTML/CSS/JS with no build step.
 
----
+<br/>
 
-## 🔒 Security & Data Integrity
+## 🔒 A Note on Secrets
 
-> [!TIP]
-> **Audit Lock Window**: Records edited after 24 hours require administrative privilege override, preventing unauthorized post-dated grade or attendance tampering.
+This repo intentionally contains **no database credentials, API keys, or `.env` values** — only static marketing content. If you're wiring this page up inside the larger `zms-campus` PHP app, keep real credentials in an untracked `.env` file and add it to `.gitignore`; never commit them to a public README or repo history. If a real password has ever been committed anywhere in this project's history, rotate it immediately — removing it from a later commit does not remove it from git history.
 
-- 🔑 **BCrypt Hashing**: Passwords stored using `PASSWORD_BCRYPT` with cost factor 12.
-- 🛡️ **PDO Prepared Statements**: 100% protection against SQL injection attacks.
-- 🔐 **Session Security**: HttpOnly and SameSite cookie policies active.
+<br/>
 
----
-
-## 👨‍💻 Lead Architect & Developer Credit
+## 👨‍💻 Developer
 
 <div align="center">
 
-  <a href="https://parthbhuyan.github.io/">
-    <img src="https://img.shields.io/badge/Lead_Architect-Partha_Bhuyan-EE4826?style=for-the-badge&logo=github&logoColor=white" alt="Partha Bhuyan" />
-  </a>
+<img src="https://skillicons.dev/icons?i=github&theme=light" width="50"/>
 
-  ### **Partha Bhuyan**
-  *System Architect & Full-Stack Engineer*  
-  🌐 **Portfolio**: [https://parthbhuyan.github.io/](https://parthbhuyan.github.io/)
+<a href="https://parthbhuyan.github.io/"><img src="https://img.shields.io/badge/Portfolio-parthbhuyan.github.io-EE4826?style=for-the-badge&logo=github&logoColor=white" alt="Partha Bhuyan"/></a>
+
+**Partha Bhuyan** · System Architect & Full‑Stack Developer
 
 </div>
 
----
+<br/>
 
-<div align="center">
-  <sub>© 2026 <strong>Zion Mission School, Amba</strong>. All Rights Reserved. CBSE Code: <code>ZMS-AMBA-2026</code>.</sub>
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=16&duration=3000&pause=1000&color=6B7590&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+ZMS+Campus;%C2%A9+2026+Zion+Mission+School%2C+Amba" alt="Footer typing SVG"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10B981,50:F5A623,100:EE4826&height=140&section=footer&animation=fadeIn" width="100%" alt="footer wave"/>

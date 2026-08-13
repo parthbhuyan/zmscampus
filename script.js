@@ -233,6 +233,26 @@
             if (ringCircle) animateRing(ringCircle);
         }
 
+        // Live ERP Sync for Today's Attendance Rate
+        try {
+            fetch('/api/public-stats')
+                .then(function (res) { return res.json(); })
+                .then(function (data) {
+                    if (data && data.today_attendance !== undefined) {
+                        var rate = parseFloat(data.today_attendance).toFixed(1);
+                        var numEl = document.getElementById('heroAttendanceVal');
+                        var circleEl = document.getElementById('heroAttendanceRing');
+                        if (numEl) numEl.setAttribute('data-count', rate);
+                        if (circleEl) circleEl.setAttribute('data-ring', rate);
+                        if (statsAnimated) {
+                            if (numEl) countUp(numEl);
+                            if (circleEl) animateRing(circleEl);
+                        }
+                    }
+                })
+                .catch(function () { });
+        } catch (e) { }
+
         var heroStats = document.querySelector('.hero-stats');
         if (heroStats && 'IntersectionObserver' in window && !reduceMotion) {
             var statsIo = new IntersectionObserver(function (entries) {

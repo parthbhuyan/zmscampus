@@ -227,20 +227,21 @@
                 </div>
 
                 <!-- Signature floating snapshot widget -->
-                <div class="erp-snapshot-card" role="img" aria-label="Live snapshot: today's attendance is 96 point 4 percent">
+                <!-- Signature floating snapshot widget (Synced with Live Dashboard API) -->
+                <div class="erp-snapshot-card" role="img" aria-label="Live snapshot: today's attendance rate">
                     <div class="erp-snapshot-head">
                         <span class="erp-snapshot-dot"></span> Today's Attendance
                     </div>
                     <div class="erp-snapshot-ring">
                         <svg viewBox="0 0 120 120" class="ring-svg">
                             <circle cx="60" cy="60" r="52" class="ring-track"></circle>
-                            <circle cx="60" cy="60" r="52" class="ring-value" data-ring="96.4"></circle>
+                            <circle cx="60" cy="60" r="52" class="ring-value" id="heroAttendanceRing" data-ring="0.0"></circle>
                         </svg>
                         <div class="erp-snapshot-value">
-                            <span class="ring-number" data-count="96.4" data-decimals="1" data-suffix="%">0%</span>
+                            <span class="ring-number" id="heroAttendanceVal" data-count="0.0" data-decimals="1" data-suffix="%">0.0%</span>
                         </div>
                     </div>
-                    <div class="erp-snapshot-foot">Class 9–12 • Updated 2 min ago</div>
+                    <div class="erp-snapshot-foot">Class 9–12 • Live ERP DB Sync</div>
                 </div>
             </div>
         </div>

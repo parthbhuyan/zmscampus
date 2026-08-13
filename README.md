@@ -1,12 +1,20 @@
+<a name="top"></a>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EE4826,50:F5A623,100:10B981&height=220&section=header&text=ZMS%20Campus&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Zion%20Mission%20School%2C%20Amba%20%E2%80%94%20Smart%20Attendance%20%26%20ERP%20Portal&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="ZMS Campus banner"/>
+<img src="assets/images/zms_logo.png" alt="Zion Mission School crest" width="96" />
 
-<img src="assets/images/zms_logo.png" alt="Zion Mission School crest" width="100" />
+<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=34&duration=2600&pause=900&color=EE4826&center=true&vCenter=true&width=760&lines=ZMS+Campus;Zion+Mission+School%2C+Amba" alt="ZMS Campus"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=22&duration=2800&pause=1000&color=EE4826&center=true&vCenter=true&width=680&lines=A+Unique+Educational+Institution+of+Amba%2C+Arunachal+Pradesh;Run+by+the+Zion+Mission+Society%2C+Nirjuli;Affiliation+Code+%3A+ZMS-AMBA-2026" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=17&duration=2800&pause=1000&color=6B7590&center=true&vCenter=true&width=680&lines=A+Unique+Educational+Institution+of+Amba%2C+Arunachal+Pradesh;Run+by+the+Zion+Mission+Society%2C+Nirjuli;Affiliation+Code+%3A+ZMS-AMBA-2026" alt="Typing SVG"/>
 
-<br/>
+<br/><br/>
+
+<p>
+  <img src="https://img.shields.io/github/last-commit/parthbhuyan/zmscampus?style=flat-square&color=EE4826&label=last%20updated" alt="Last commit"/>
+  <img src="https://img.shields.io/github/repo-size/parthbhuyan/zmscampus?style=flat-square&color=6366F1" alt="Repo size"/>
+  <img src="https://img.shields.io/github/languages/top/parthbhuyan/zmscampus?style=flat-square&color=F5A623" alt="Top language"/>
+  <img src="https://img.shields.io/badge/license-%C2%A9_2026_ZMS-101A2C?style=flat-square" alt="License"/>
+</p>
 
 <p>
   <a href="https://zmscampus.gt.tc/"><img src="https://img.shields.io/badge/🔐_Live_Portal-zmscampus.gt.tc-EE4826?style=for-the-badge&labelColor=1a1a2e" alt="Live Portal"/></a>
@@ -18,19 +26,25 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Theme-Glassmorphism_Light-EE4826?style=flat-square" alt="Glassmorphism"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3"/>
   <img src="https://img.shields.io/badge/PWA-ready-10B981?style=flat-square&logo=pwa&logoColor=white" alt="PWA ready"/>
   <img src="https://img.shields.io/badge/Responsive-320px%E2%80%931440px+-6366F1?style=flat-square" alt="Responsive"/>
-  <img src="https://img.shields.io/badge/Dependencies-zero-10B981?style=flat-square" alt="Zero dependencies"/>
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:EE4826,50:F5A623,100:10B981&height=4&section=header" width="70%" alt="divider"/>
 
 </div>
 
 <br/>
 
-## 📋 Table of Contents
+> [!TIP]
+> 🔐 **Live ERP Portal:** [zmscampus.gt.tc](https://zmscampus.gt.tc/) &nbsp;·&nbsp; 🏫 **Official school website:** [zionmissionschool.org](https://www.zionmissionschool.org/)
+
+<br/>
+
+<details open>
+<summary><b>📋 Table of Contents</b></summary>
+<br/>
 
 - [Overview](#-overview)
 - [Highlights](#-highlights)
@@ -41,16 +55,15 @@
 - [A Note on Secrets](#-a-note-on-secrets)
 - [Developer](#-developer)
 
+</details>
+
 <br/>
 
 ## 🌟 Overview
 
-This is the **public marketing homepage** for **ZMS Campus** — the school-management ERP used by **Zion Mission School, Amba**. It's a static, dependency‑free page (`index.html` + `style.css` + `script.js`) that introduces the school, showcases what the ERP does, and hands visitors straight to the live portal.
+This is the **public marketing homepage** for **ZMS Campus** — the school-management ERP used by **Zion Mission School, Amba**. The homepage itself is a static, dependency‑free page (`index.html` + `style.css` + `script.js`); the ERP it links to runs on **PHP, MySQL** (and Python 3 is used for image/asset tooling in this project). The page introduces the school, showcases what the ERP does, and hands visitors straight to the live portal.
 
-> 🔐 **Live ERP Portal:** [zmscampus.gt.tc](https://zmscampus.gt.tc/)
-> 🏫 **Official school website:** [zionmissionschool.org](https://www.zionmissionschool.org/)
-
-No build step, no framework, no dependencies to install — open `index.html` and it runs.
+No build step for the homepage itself — open `index.html` and it runs.
 
 <br/>
 
@@ -75,7 +88,9 @@ No build step, no framework, no dependencies to install — open `index.html` an
 ## 🛠 Built With
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github&theme=light" alt="Tech stack icons"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,py,git,github&theme=light" alt="Tech stack icons"/>
+<br/>
+<sub>Static homepage: HTML · CSS · JS &nbsp;|&nbsp; ZMS Campus ERP backend: PHP · MySQL &nbsp;|&nbsp; Tooling: Python 3</sub>
 </div>
 
 <br/>
@@ -98,6 +113,9 @@ zms-static-site/
 └── README.md
 ```
 
+> [!NOTE]
+> The crest image above is referenced as `assets/images/zms_logo.png`, relative to this README — it only resolves on GitHub if the `assets/` folder sits in the **same folder** as this README in the repo. If it ever shows broken again, check that this exact path exists in the repo's file browser.
+
 <br/>
 
 ## 🎨 Design System
@@ -108,11 +126,11 @@ zms-static-site/
 
 **Accent palette**
 
-![#EE4826](https://via.placeholder.com/14/EE4826/EE4826.png) `Brand Red` `#EE4826` &nbsp;&nbsp;
-![#F5A623](https://via.placeholder.com/14/F5A623/F5A623.png) `Brand Gold` `#F5A623` &nbsp;&nbsp;
-![#10B981](https://via.placeholder.com/14/10B981/10B981.png) `Emerald` `#10B981` &nbsp;&nbsp;
-![#6366F1](https://via.placeholder.com/14/6366F1/6366F1.png) `Indigo` `#6366F1` &nbsp;&nbsp;
-![#101A2C](https://via.placeholder.com/14/101A2C/101A2C.png) `Text Primary` `#101A2C`
+![#EE4826](https://img.shields.io/badge/-EE4826?style=flat-square&color=EE4826) `Brand Red` `#EE4826` &nbsp;&nbsp;
+![#F5A623](https://img.shields.io/badge/-F5A623?style=flat-square&color=F5A623) `Brand Gold` `#F5A623` &nbsp;&nbsp;
+![#10B981](https://img.shields.io/badge/-10B981?style=flat-square&color=10B981) `Emerald` `#10B981` &nbsp;&nbsp;
+![#6366F1](https://img.shields.io/badge/-6366F1?style=flat-square&color=6366F1) `Indigo` `#6366F1` &nbsp;&nbsp;
+![#101A2C](https://img.shields.io/badge/-101A2C?style=flat-square&color=101A2C) `Text Primary` `#101A2C`
 
 **Type & shape**
 
@@ -131,20 +149,15 @@ The hero photo alone is a nice campus shot, but it doesn't say "this school runs
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:10B981,50:F5A623,100:EE4826&height=4&section=header" width="70%" alt="divider"/>
-
-<br/>
-
 ## 🚀 Running it Locally
 
-No install needed — but serving over HTTP (rather than `file://`) avoids local CORS quirks with fonts/icons:
-
 ```bash
-# Python
-python3 -m http.server 8080
+git clone https://github.com/parthbhuyan/zmscampus.git
+cd zmscampus
 
-# Node
-npx serve .
+# then serve over HTTP (avoids local CORS quirks with fonts/icons)
+python3 -m http.server 8080
+# or: npx serve .
 ```
 
 Then open `http://localhost:8080`.
@@ -157,7 +170,8 @@ This folder is ready to drop onto **GitHub Pages**, **Netlify**, **Vercel**, or 
 
 ## 🔒 A Note on Secrets
 
-This repo intentionally contains **no database credentials, API keys, or `.env` values** — only static marketing content. If you're wiring this page up inside the larger `zms-campus` PHP app, keep real credentials in an untracked `.env` file and add it to `.gitignore`; never commit them to a public README or repo history. If a real password has ever been committed anywhere in this project's history, rotate it immediately — removing it from a later commit does not remove it from git history.
+> [!WARNING]
+> This repo intentionally contains **no database credentials, API keys, or `.env` values** — only static marketing content. If you're wiring this page up inside the larger `zms-campus` PHP app, keep real credentials in an untracked `.env` file and add it to `.gitignore`; never commit them to a public README or repo history. If a real password has ever been committed anywhere in this project's history, **rotate it immediately** — removing it from a later commit does not remove it from git history.
 
 <br/>
 
@@ -165,16 +179,22 @@ This repo intentionally contains **no database credentials, API keys, or `.env` 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=github&theme=light" width="50"/>
-
 <a href="https://parthbhuyan.github.io/"><img src="https://img.shields.io/badge/Portfolio-parthbhuyan.github.io-EE4826?style=for-the-badge&logo=github&logoColor=white" alt="Partha Bhuyan"/></a>
 
 **Partha Bhuyan** · System Architect & Full‑Stack Developer
 
 </div>
 
-<br/>
+---
+
+<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=16&duration=3000&pause=1000&color=6B7590&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+ZMS+Campus;%C2%A9+2026+Zion+Mission+School%2C+Amba" alt="Footer typing SVG"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10B981,50:F5A623,100:EE4826&height=140&section=footer&animation=fadeIn" width="100%" alt="footer wave"/>
+<img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-EE4826?style=flat-square" alt="Made with love"/>
+
+<br/><br/>
+
+<a href="#top">⬆️ Back to top</a>
+
+</div>
